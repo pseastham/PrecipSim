@@ -1,0 +1,8 @@
+~~~ runID code ~~~ 
+1: full run (no testing)
+2: pure diffusion, one chemical test case
+3: pure advection, one chemical test case
+4: advection-diffusion, one chemical test case
+5: multiphase brinkman, one chemical test case
+6: diffusion + reaction, two chemical test case
+7: pure reaction test case
