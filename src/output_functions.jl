@@ -1,13 +1,13 @@
 mutable struct simulationTimer
-    initialTime::Float64
-    wallTime::Float64
-    timeStepStartTime::Float64
-    simulationTime::Float64
-    finalTime::Float64
-    stepIndex::Int64
-    printIndex::Int64
-    printSkip::Int64
-    Δt::Float64
+  initialTime::Float64
+  wallTime::Float64
+  timeStepStartTime::Float64
+  simulationTime::Float64
+  finalTime::Float64
+  stepIndex::Int64
+  printIndex::Int64
+  printSkip::Int64
+  Δt::Float64
 end
 
 function exportVTK!(timer::simulationTimer,p::precipParam,soln::precipSolution,mesh::precipMesh)
